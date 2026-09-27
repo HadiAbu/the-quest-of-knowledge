@@ -228,3 +228,15 @@ stylable with plain CSS, appropriate for a small tile-based MVP village.
 - Sound/animation polish.
 - An in-hideout language switcher (MVP only sets locale once, at the
   welcome screen).
+- Larger per-subject question pools. Playtesting the MVP surfaced that with
+  only 2 questions per subject, the same question repeats noticeably often
+  within and across battles against the same enemy/subject — needs more
+  content per subject before this feels varied.
+- A visible damage/hit animation/flash when an enemy (especially the boss)
+  takes damage. Playtesting found the current instant HP-bar update isn't
+  obvious enough — a player can miss that they actually landed a hit,
+  particularly against the boss's larger HP pool.
+- Real character/enemy sprite art. The MVP intentionally uses plain
+  geometric placeholders (colored circles/squares, emoji) per the "DOM/CSS
+  tile grid, not canvas" non-goal — playtesting confirmed this reads as
+  too plain and should be revisited with actual character/enemy artwork.
